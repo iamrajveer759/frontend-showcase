@@ -1,0 +1,724 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*-------------------------------- NAVBAR------------------------------  */
+        
+        #navbar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .navbar {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+        }
+        
+        .navbar-brand img {
+            height: 50px;
+        }
+        
+        .navbar-nav li {
+            padding: 0 15px;
+        }
+        
+        .navbar-nav li a {
+            color: #FFF !important;
+            font-weight: 800px;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .navbar-nav li a:hover {
+            background-color: #fff;
+            color: rgb(14, 11, 56, 1) !important;
+            border-radius: 6px;
+            transition: 0.6s;
+        }
+        
+        .fa-bars {
+            color: #FFF;
+            font-size: 30px;
+        }
+        
+        .navbar-toggler {
+            outline: none !important;
+        }
+        
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+        }
+        /* ---------------------------HOME  BANNER SECTION----------------------------- */
+        
+        #banner {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            color: #FFF;
+            padding-top: 5%;
+        }
+        
+        #banner h1 {
+            font-size: 52px;
+            font-weight: 800;
+            margin-top: 100px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #banner p {
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #banner span {
+            /* -webkit-text-stroke:0.5px #000;
+             -webkit-text-fill-color:transparent; */
+            color: rgb(239, 37, 37, 91.1%);
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #banner .btn-primary {
+            background-image: linear-gradient(199deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            box-shadow: none;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 20px;
+            /* margin: auto;
+            display: flex;
+            margin-top: 10px; */
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+        }
+        
+        #banner .btn-primary:hover {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            box-shadow: none;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+        }
+        
+        .choose-img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .choose-img img {
+            height: 100%;
+            width: 100%;
+        }
+        /*------------------------------   HOME PAGE SERVICES SECTIONS----------------------- */
+        
+        #services {
+            padding: 5%;
+            background-color: #f4f4f4;
+        }
+        
+        .services {
+            /* padding: 2%;
+            background-color: #f4f4f4;
+            
+            border-radius: 10px;
+            border:
+            box-shadow: 3px 3px 0px 0px rgb(151, 15, 15); */
+            border-width: 4px;
+            border-style: solid;
+            border-image: linear-gradient(to right, rgb(14, 11, 56), rgb(239, 37, 37)) 1;
+            padding: 4%;
+        }
+        
+        #services h1 {
+            color: #000;
+            font-size: 35px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin-bottom: 4%
+        }
+        
+        .service-img {
+            width: 400px;
+        }
+        
+        #services h4 {
+            font-size: 20px;
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #services h4 {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: 700;
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #services p {
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #services .btn-primary {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            box-shadow: none;
+            padding: 9px 25px;
+            border: none;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            display: flex;
+            width: 12%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #services .btn-primary:hover {
+            background-image: linear-gradient(199deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            box-shadow: none;
+            padding: 9px 25px;
+            border: none;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            display: flex;
+            width: 12%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .fa-laptop {
+            color: #FFF;
+            font-size: 70px;
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            padding: 20px;
+            border-radius: 25px;
+        }
+        
+        .fa-bullhorn {
+            color: #FFF;
+            font-size: 70px;
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            padding: 20px;
+            border-radius: 25px;
+        }
+        /*-------------------------------  HOME PAGE  ABOUT US SECTIONS----------------------  */
+        
+        #aboutus {
+            background-color: #f4f4f4;
+            padding: 3%;
+        }
+        
+        #aboutus h1 {
+            color: #000;
+            font-size: 35px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+        
+        .about-us p {
+            font-size: 25px;
+            margin-top: 8%;
+            font-weight: 600;
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+            margin-left: 13px;
+        }
+        
+        .about-us ul li {
+            margin: 6px 0;
+            font-size: 16px;
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+        }
+        /*----------------------  Home Page  Testimonails Section ------------------ */
+        
+        #testimonails {
+            padding: 4%;
+            background-color: #f4f4f4;
+        }
+        
+        #testimonails h1 {
+            color: #000;
+            font-size: 35px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 4%;
+        }
+        
+        .testimonails {
+            margin: 50px px;
+            padding: 3%;
+            background-color: rgba(255, 255, 255, 1);
+            color: #000;
+            border-radius: 10px;
+            box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16), 0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+        }
+        
+        .testimonails img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        
+        .testimonails p {
+            display: inline-block;
+            font-size: 16px;
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+        }
+        /* CONTACT FROM SECTION */
+        
+        #contactform h1 {
+            color: #000;
+            font-size: 35px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 4%;
+        }
+        /*  CONTACT SECTION    */
+        
+        #contactform {
+            padding: 5%;
+            background-color: #f4f4f4;
+        }
+        
+        .contact-sec1 h1 {
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+        }
+        
+        .contact-sec1 p {
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+        }
+        
+        button.btn.btn-primary.btn-submit {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            box-shadow: none;
+            padding: 8px 25px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .contact-sec1 a {
+            text-decoration: none;
+            display: block;
+            margin-top: 20px;
+            color: #000;
+            font-size: 18px;
+            font-family: 'Poppins';
+        }
+        
+        .contact-sec1 .fa {
+            color: #FFF;
+            margin-right: 8px;
+            font-size: 18px;
+            height: 25px;
+            width: 25px;
+            text-align: center;
+            padding-top: 3px;
+            border-radius: 4px;
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-top: 15px;
+        }
+        
+        .contact-from-bg {
+            border-width: 4px;
+            border-style: solid;
+            border-image: linear-gradient(to right, rgb(14, 11, 56), rgb(239, 37, 37)) 1;
+            padding: 2%;
+        }
+        /*  FOOTER SECTION  */
+        
+        #footer {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            padding: 4%;
+        }
+        
+        .footer-box p {
+            color: #FFF;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .footer-box img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-heading b {
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        #footer a {
+            text-decoration: none;
+            color: #FFF;
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+            display: inline-block;
+            margin-bottom: 22px;
+        }
+        
+        .footer-box .fa {
+            margin-right: 8px;
+            font-size: 16px;
+            height: 25px;
+            width: 25px;
+            text-align: center;
+            padding-top: 3px;
+            border-radius: 4px;
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            text-align: center;
+        }
+        
+        .footer-box .form-control {
+            box-shadow: none;
+            border: none;
+            margin-top: 25px;
+            max-width: 250px;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .footer-box .btn-primary {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            box-shadow: none;
+            padding: 8px 25px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        i.fa.fa-facebook-official {
+            margin-left: 51px;
+        }
+        
+        .fa-twitter {
+            margin-left: 51px;
+        }
+        
+        .fa-instagram {
+            margin-left: 51px;
+        }
+        /*  BOTTOM Copyright Footer */
+        
+        #bottom-footer {
+            padding: 1%;
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+        }
+        
+        p.cp-text {
+            text-align: center;
+            color: #FFF;
+            font-size: 15px;
+            font-family: 'Poppins';
+        }
+        /*  ------------------------------PAGES CSS-------------------------------------   */
+        /*----------SERVICE PAGE----------*/
+        
+        #servicespage {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            height: 40vh;
+        }
+        
+        #servicespage h1 {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            color: #FFF;
+            text-align: center;
+            margin-top: 6%;
+            font-weight: 700;
+        }
+        
+        #services2 {
+            background-color: #f4f4f4;
+            padding-bottom: 3%;
+        }
+        /*------------------  About US Page---------------------- */
+        
+        #aboutpage {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            height: 40vh;
+        }
+        
+        #aboutpage h1 {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            color: #FFF;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 6%;
+        }
+        /* ----------------------Testimonials Page--------------------------------- */
+        
+        #testimonials {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            height: 40vh;
+        }
+        
+        #testimonials h1 {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            color: #FFF;
+            text-align: center;
+            margin-top: 6%;
+            font-weight: 700;
+        }
+        /*---------------------  CONTACT PAGE-----------------------------  */
+        
+        #contactpage {
+            background-image: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+            height: 40vh;
+        }
+        
+        #contactpage h1 {
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            color: #FFF;
+            text-align: center;
+            margin-top: 6%;
+            font-weight: 700;
+        }
+        /*-----------------------------  MEDIA QUERY  MOBILE DEVICES------------------*/
+        
+        @media(max-width: 576px) {
+            .navbar-brand img {
+                height: 40px;
+            }
+            .navbar-nav li a {
+                font-size: 13px;
+            }
+            #banner h1 {
+                font-size: 28px;
+                font-weight: 800;
+                margin-top: 72px;
+                text-align: center;
+            }
+            #banner p {
+                font-size: 12px;
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+            }
+            #banner .btn-primary {
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                /* justify-content: center; */
+                margin: 0 auto;
+                align-items: center;
+                justify-content: center;
+                width: 60%;
+                font-size: 14px;
+            }
+            #services h1 {
+                font-size: 30px;
+            }
+            #services p {
+                font-size: 12px;
+            }
+            #aboutus h1 {
+                font-size: 30px;
+            }
+            #services .btn-primary {
+                font-size: 14px;
+                width: 54%;
+            }
+            .services {
+                margin-top: 16px;
+            }
+            .about-us p {
+                font-size: 18px;
+                text-align: center;
+                margin-top: 3%;
+            }
+            .about-us ul li {
+                font-size: 12px;
+                margin-top: 3%;
+            }
+            .testimonails {
+                margin: 16px 0;
+            }
+            #testimonails h1 {
+                font-size: 30px;
+                text-align: center;
+            }
+            .testimonails p {
+                font-size: 13px;
+                text-align: center;
+            }
+            .footer-box img {
+                width: 150px;
+                margin-bottom: 20px;
+                display: flex;
+                margin: auto;
+            }
+            .footer-box p {
+                font-size: 12px;
+                text-align: center;
+                margin-top: 12px;
+            }
+            #footer a {
+                font-size: 13px;
+                margin-left: 45px
+            }
+            .footer-box .form-control {
+                text-align: center;
+                margin-bottom: 12px;
+                margin-top: 20px;
+            }
+            .footer-box .btn-primary {
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                /* justify-content: center; */
+                margin: 0 auto;
+                align-items: center;
+                justify-content: center;
+                width: 55%;
+                font-size: 14px;
+            }
+            .footer-box .form-control {
+                font-size: 13px;
+            }
+            i.fa.fa-facebook-official {
+                margin-left: 0px
+            }
+            .fa-twitter {
+                margin-left: 0px;
+            }
+            .fa-instagram {
+                margin-left: 0px;
+            }
+            #servicespage h1 {
+                font-size: 25px;
+                margin-top: 7%;
+            }
+            #aboutpage h1 {
+                font-size: 25px;
+                margin-top: 7%;
+            }
+            #contactpage h1 {
+                font-size: 32px;
+                margin-top: 7%;
+            }
+            .contact-from-bg {
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+            .contact-sec1 h1 {
+                font-size: 22px;
+                text-align: center;
+            }
+            .contact-sec1 p {
+                font-size: 16px;
+                text-align: center;
+            }
+            .contact-sec1 a {
+                font-size: 14px;
+                text-align: center;
+            }
+            .contact-sec1 .fa {
+                color: #FFF;
+                margin-right: 8px;
+                font-size: 13px;
+                height: 23px;
+                width: 24px;
+            }
+            #testimonials h1 {
+                font-size: 25px;
+                margin-top: 7%;
+            }
+        }
+        /*  MOBILE Mediq Query END */
+        /* ---------------------TABLET  RESPOSNIVE---------------------------------  */
+        
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            #banner h1 {
+                font-size: 28px;
+                margin-top: 8px;
+            }
+            #banner p {
+                font-size: 13px;
+            }
+            #banner .btn-primary {
+                font-size: 13px;
+            }
+            #banner .img-fluid {
+                margin-top: -34px;
+            }
+            #services p {
+                font-size: 12px;
+            }
+            .fa-bullhorn {
+                font-size: 53px;
+            }
+            .fa-laptop {
+                font-size: 53px;
+            }
+            .about-us ul li {
+                font-size: 12px;
+            }
+            #aboutus .img-fluid {
+                margin-top: 123px;
+            }
+            .about-us p {
+                font-size: 20px;
+                padding-left: 19px;
+            }
+            .testimonails p {
+                font-size: 12px;
+            }
+            .footer-box img {
+                width: 130px;
+            }
+            .footer-box p {
+                font-size: 11px;
+            }
+            #footer a {
+                font-size: 11px;
+                margin-bottom: 14px;
+            }
+            .footer-box .fa {
+                margin-right: 8px;
+                font-size: 15px;
+                height: 23px;
+                width: 22px;
+            }
+            .footer-heading b {
+                font-size: 13px;
+            }
+            i.fa.fa-facebook-official {
+                margin-left: 33px;
+            }
+            .fa-twitter {
+                margin-left: 33px;
+            }
+            .fa-instagram {
+                margin-left: 33px;
+            }
+        }
+        /*  Mediq Query END */
